@@ -42,7 +42,7 @@ java -jar spring-boot-hapi-fhir.jar
 
 ## API
 
-You will find the swagger UI at https://localhost:8443/fhir/swagger-ui.html and http://localhost:8080/fhir/swagger-ui.html 
+You will find the swagger UI at http://localhost:8080/fhir/swagger-ui/
 
 ## Docker
 
@@ -60,7 +60,7 @@ docker build -t springboot-hapifhir .
 docker compose up
 ```
 
-The app will be available at https://localhost:8443/fhir/swagger-ui.html and http://localhost:8080/fhir/swagger-ui.html 
+The app will be available at http://localhost:8080/fhir/swagger-ui/
 
 ## Documentation
 
