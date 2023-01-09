@@ -10,7 +10,7 @@
   </parent>
   <groupId>com.spring.hapi.fhir</groupId>
   <artifactId>spring-boot-hapi-fhir</artifactId>
-  <version>1.0.0-SNAPSHOT</version>
+  <version>1.0.0</version>
   <name>spring-boot-hapi-fhir</name>
   <description>spring-boot-hapi-fhir</description>
   <properties>
@@ -63,10 +63,18 @@
     </dependency>
   </dependencies>
   <build>
+    <finalName>spring-boot-hapi-fhir</finalName>
     <plugins>
       <plugin>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-maven-plugin</artifactId>
+        <executions>
+          <execution>
+            <configuration>
+              <mainClass>com.spring.hapi.fhir.springboothapifhir.SpringBootHapiFhirApplication</mainClass>
+            </configuration>
+          </execution>
+        </executions>
         <configuration>
           <excludes>
             <exclude>
