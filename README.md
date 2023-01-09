@@ -37,7 +37,7 @@ To launch the server, simply run with java -jar the generated jar file.
 
 ```bash
 cd target
-java -jar hapi-fihr-1.0.jar
+java -jar spring-boot-hapi-fhir.jar
 ```
 
 ## API
